@@ -1,4 +1,4 @@
-const csvUrl = "https://raw.githubusercontent.com/YasmineH123/webscraping-automation.github.io/main/bitcoin_hourly_data.csv";
+const csvUrl = "https://raw.githubusercontent.com/YasmineH123/webscraping-automation/main/bitcoin_hourly_data.csv";
 async function fetchCsvData() {
   try {
     const response = await fetch(csvUrl);
